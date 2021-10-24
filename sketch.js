@@ -50,16 +50,11 @@ function draw() {
 
   playerArcher.display();
 
-  if(keyCode===32){
-  arrow.shoot(playerArcher.body.angle);
-  }
-
   // Title
   fill("#FFFF");
   textAlign("center");
   textSize(40);
   text("EPIC ARCHERY", width / 2, 100);
-
 }
 
 
